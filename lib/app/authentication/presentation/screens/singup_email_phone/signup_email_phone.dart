@@ -196,7 +196,7 @@ class SignupEmailPhone extends StatelessWidget {
               Center(
                 child: ButtonWidget(
                   press: () {
-                    Navigator.pushNamed(context, Routes.loginRoute);
+                    Navigator.pushNamed(context, Routes.verifyEmailRoute);
                   },
                   width: 151.w,
                   borderRadius: 100,

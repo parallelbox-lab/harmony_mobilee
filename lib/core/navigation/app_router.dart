@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:harmony_mobile/app/authentication/presentation/screens/signup_type_select/signup_type_select.dart';
 import 'package:harmony_mobile/app/authentication/presentation/screens/singup_email_phone/signup_email_phone.dart';
+import 'package:harmony_mobile/app/authentication/presentation/screens/verify_email/verify_email.dart';
 import 'package:harmony_mobile/app/splash/presentation/screen/splash_screen.dart';
 import 'package:harmony_mobile/app/user_type_module/presentation/screens/choose_user_type_view.dart';
 
@@ -12,6 +13,7 @@ class Routes {
   static const String chooseUserTypeRoute = "/choose-user-type";
   static const String signupTypeRoute = "/signup-type";
   static const String signupEmail = "/signup-email";
+  static const String verifyEmailRoute = "/verify-email";
   static const String createAccountRoute = "/create-account";
   static const String forgetPasswordRoute = "/forget-password";
 }
@@ -27,8 +29,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => const SignupType());
       case Routes.signupEmail:
         return MaterialPageRoute(builder: (_) => const SignupEmailPhone());
-      // case Routes.createAccountRoute:
-      //   return MaterialPageRoute(builder: (_) => const CreateAccountView());
+      case Routes.verifyEmailRoute:
+        return MaterialPageRoute(builder: (_) => const VerifyEmail());
       // case Routes.forgetPasswordRoute:
       //   return MaterialPageRoute(builder: (_) => const ForgetPasswordView());
       // case Routes.onboaringRoute:
