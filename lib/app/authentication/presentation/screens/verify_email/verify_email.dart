@@ -184,7 +184,7 @@ class _VerifyEmailState extends State<VerifyEmail> {
             Center(
               child: ButtonWidget(
                 press: () {
-                  Navigator.pushNamed(context, Routes.verifyEmailRoute);
+                  Navigator.pushNamed(context, Routes.accounntCreatedRoute);
                 },
                 width: 151.w,
                 borderRadius: 100,
