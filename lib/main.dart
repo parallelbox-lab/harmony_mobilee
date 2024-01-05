@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:harmony_mobile/core/di_config.dart';
 import 'package:harmony_mobile/core/navigation/app_router.dart';
+import 'package:harmony_mobile/src/res/widgets/theme/app_theme.dart';
 import 'package:harmony_mobile/src/utilities/responsive_ness.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         initialRoute: Routes.splashRoute,
         onGenerateRoute: RouteGenerator.getRoute,
-        theme: ThemeData(fontFamily: "Gabarito"),
+        theme: AppTheme.appthemeData,
       ),
     );
   }
