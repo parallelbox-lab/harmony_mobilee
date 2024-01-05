@@ -115,12 +115,11 @@ class ChooseUserTypeView extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () =>
-                    Navigator.pushNamed(context, Routes.chooseUserTypeRoute),
+                    Navigator.pushNamed(context, Routes.signupTypeRoute),
                 child: Container(
                   width: 120.w,
                   height: 56.h,
                   padding: const EdgeInsets.all(8),
-                  clipBehavior: Clip.antiAlias,
                   decoration: ShapeDecoration(
                     color: const Color(0xFF202124),
                     shape: RoundedRectangleBorder(

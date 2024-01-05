@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         initialRoute: Routes.splashRoute,
         onGenerateRoute: RouteGenerator.getRoute,
-        theme: ThemeData(),
+        theme: ThemeData(fontFamily: "Gabarito"),
       ),
     );
   }
