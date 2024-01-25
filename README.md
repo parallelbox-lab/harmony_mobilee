@@ -1,16 +1,46 @@
-# harmony_mobile
+# HARMONY MOBILE APP
+<hr/>
 
-A new Flutter project.
+## State Management used
+Bloc 
+## Achitectural Pattern Used
+This app follow clean architecture proposed By Uncle Bob I used BloC as state management to improve widget rebuilding performance.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## APP FEATURES 
+ 
+* Beautiful Images, description and features 
+* Caching data in local database (Hive) 
 
-A few resources to get you started if this is your first Flutter project:
+## Directory Structure
+```
+lib
+├───core
+│   ├───colors
+│   ├───error
+│   ├───local
+│   ├───network
+│   ├───theme
+│   │   ├───bloc
+│   │   └───local_theme
+│   ├───usecase
+│   └───utilities
+├── dependency_injection.dart
+├── main.dart
+└───features
+    ├───hoome_page
+    │   ├───data
+    │   │   ├───datasource       
+    │___│   └───models
+        └───presentation
+            ├───bloc
+            │   └───cubit        
+            ├───views
+            └───widgets
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+
+
