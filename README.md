@@ -2,15 +2,14 @@
 <hr/>
 
 ## State Management used
-Bloc 
+Stacked pattern used
 ## Achitectural Pattern Used
-This app follow clean architecture proposed By Uncle Bob I used BloC as state management to improve widget rebuilding performance.
+This app follow clean architecture proposed By Uncle Bob 
 
 
 ## APP FEATURES 
- 
-* Beautiful Images, description and features 
-* Caching data in local database (Hive) 
+* Authentication
+* Job board 
 
 ## Directory Structure
 ```
@@ -28,7 +27,7 @@ lib
 ├── dependency_injection.dart
 ├── main.dart
 └───features
-    ├───hoome_page
+    ├───authentication
     │   ├───data
     │   │   ├───datasource       
     │___│   └───models
